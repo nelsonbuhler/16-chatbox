@@ -17,27 +17,65 @@ img {
   margin: auto;
   flex-direction: column;
   align-items: left;
+  
 }
 
 .message-box {
   margin: 0 20px 20px 20px;
-  max-width: 75%;
+  max-width: 70%;
 }
 
 .message-content {
   border-radius: 15px 15px 15px 0;
   font-family: monospace;
-  background: #55f;
   margin: 0 0 5px 0;
   padding: 10px 15px;
+  color:#f7f7f7;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .message-author {
-  width: 50px; 
-  height: 50px;
+  width: 40px; 
+  height: 40px;
   border-radius: 50%;
+  margin-left: -15px;
+  margin-bottom: -10px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  align-self: end;
 }
 
 .message-box-gustofer {
-  background-color: aquamarine;
+  align-self: flex-end;
+}
+
+.message-box-gustofer p, .message-box-boscha img {
+  background: rgb(182, 182, 182); 
+}
+
+.message-box-alador p, .message-box-boscha img {
+  background: rgb(120, 212, 114);
+}
+
+.message-box-boscha p, .message-box-boscha img {
+  background: rgb(242, 140, 187);
+}
+
+.message-box-gustofer img {
+  background: rgb(182, 182, 182);
+}
+
+.message-box-alador img {
+  background: rgb(120, 212, 114);
+}
+
+.message-box-boscha img {
+  background: rgb(242, 140, 187);
+}
+
+.message-box-gustofer .message-author {
+ didid 
 }
