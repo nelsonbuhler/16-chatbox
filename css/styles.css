@@ -1,3 +1,7 @@
+html {
+  background-color: white;
+}
+
 body {
   max-width: 320px;
   margin: auto;
@@ -26,8 +30,8 @@ img {
 }
 
 .message-content {
-  border-radius: 15px 15px 15px 0;
-  font-family: monospace;
+  border-radius: 15px 15px 15px 15px;
+
   margin: 0 0 5px 0;
   padding: 10px 15px;
   color:#f7f7f7;
@@ -75,6 +79,12 @@ img {
   background: rgb(242, 140, 187);
 }
 
-.message-box-gustofer .message-author {
- didid 
+.date {
+  background: rgb(182, 182, 182);
+  color:#f7f7f7;
+  border-radius: 15px 15px 15px 15px;
+  margin: 0 0 5px 0;
+  padding: 10px 15px;
+  font-family: 'Libre Franklin', sans-serif;
+  align-self: center;
 }
