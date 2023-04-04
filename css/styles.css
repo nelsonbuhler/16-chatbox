@@ -97,3 +97,23 @@ img {
   flex-grow: 1;
   margin: 7;
 }
+
+footer {
+  background: pink;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+}
+
+header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #ddd;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+}
