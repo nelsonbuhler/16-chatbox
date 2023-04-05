@@ -12,8 +12,6 @@ body {
 img {
   display: block;
   max-width: 100%;
-  width: 60%;
-  height: 60%;
 }
 
 header {
@@ -87,27 +85,15 @@ header img {
   align-self: flex-end;
 }
 
-.message-box-gustofer p, .message-box-boscha img {
+.message-box-gustofer .message-content {
   background: rgb(182, 182, 182); 
 }
 
-.message-box-alador p, .message-box-boscha img {
+.message-box-alador .message-content {
   background: rgb(120, 212, 114);
 }
 
-.message-box-boscha p, .message-box-boscha img {
-  background: rgb(242, 140, 187);
-}
-
-.message-box-gustofer img {
-  background: rgb(182, 182, 182);
-}
-
-.message-box-alador img {
-  background: rgb(120, 212, 114);
-}
-
-.message-box-boscha img {
+.message-box-boscha .message-content {
   background: rgb(242, 140, 187);
 }
 
