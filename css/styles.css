@@ -1,5 +1,6 @@
 html {
-  background-color: white;
+  background-color: rgb(175, 174, 174);
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 body {
@@ -11,11 +12,11 @@ body {
 img {
   display: block;
   max-width: 100%;
+  width: 60%;
+  height: 60%;
 }
 
 .chatbox-container {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
   display: flex;
   max-width: 300px;
   margin: auto;
@@ -34,7 +35,6 @@ img {
   margin: 0 0 5px 0;
   padding: 10px 15px;
   color:#f7f7f7;
-  font-family: 'Libre Franklin', sans-serif;
 }
 
 .message-author {
@@ -43,11 +43,6 @@ img {
   border-radius: 50%;
   margin-left: -15px;
   margin-bottom: -10px;
-}
-
-img {
-  width: 60%;
-  height: 60%;
 }
 
 .message-box-gustofer {
@@ -98,15 +93,6 @@ img {
   margin: 7;
 }
 
-footer {
-  background: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  position: sticky;
-  bottom: 0;
-}
-
 header {
   display: flex;  
   justify-content: space-between;
@@ -116,7 +102,6 @@ header {
   padding: 0 20px;
   position: sticky;
   top: 0;
-  font-family: 'Libre Franklin', sans-serif;
   font-size: 10px;
   color: white;
 }
@@ -127,19 +112,37 @@ header {
   border-radius: 50%;
 }
 
+footer {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+}
+
 input {
   border: 0;
   background-color: rgb(242, 140, 187);
   padding: 15px;
   border-radius: 25px;
   color: white;
+  margin-left: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+input::placeholder {
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 button {
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border: 0;
   color: rgb(255, 255, 255);
-  background-color: blue;
+  background-color: rgb(120, 212, 114);
+  align-self: center;
+  margin-right: 15px;
 }
