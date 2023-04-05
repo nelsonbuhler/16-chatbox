@@ -99,7 +99,7 @@ img {
 }
 
 footer {
-  background: pink;
+  background: white;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -116,6 +116,9 @@ header {
   padding: 0 20px;
   position: sticky;
   top: 0;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 10px;
+  color: white;
 }
 
 .profile-picture-top {
@@ -125,6 +128,18 @@ header {
 }
 
 input {
-  border-radius: 25%;
-  margin: 10px;
+  border: 0;
+  background-color: rgb(242, 140, 187);
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+}
+
+button {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  color: rgb(255, 255, 255);
+  background-color: blue;
 }
